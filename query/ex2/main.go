@@ -17,13 +17,13 @@ func main() {
 	}()
 	data := url.Values{}
 	urlObj, _ := url.Parse("http://baidu.com")
-	data.Set("q","nihao")
-	data.Set("p","1")
+	data.Set("q", "nihao")
+	data.Set("p", "1")
 	queryStr := data.Encode()
 	fmt.Println(queryStr)
 	urlObj.RawQuery = queryStr
 	req, err := http.NewRequest("GET", urlObj.String(), nil)
-	if err != nil{
+	if err != nil {
 		log.Println(err)
 	}
 	// 长连接
@@ -31,6 +31,8 @@ func main() {
 	//if err != nil {
 	//	log.Println(err)
 	//}
+
+	// 短连接
 	tr := &http.Transport{
 		Proxy:                  nil,
 		DialContext:            nil,
@@ -38,7 +40,7 @@ func main() {
 		DialTLS:                nil,
 		TLSClientConfig:        nil,
 		TLSHandshakeTimeout:    0,
-		DisableKeepAlives:      true,
+		DisableKeepAlives:      false,
 		DisableCompression:     false,
 		MaxIdleConns:           0,
 		MaxIdleConnsPerHost:    0,
@@ -72,6 +74,3 @@ func main() {
 
 	fmt.Println(string(b))
 }
-
-
-

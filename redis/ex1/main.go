@@ -10,6 +10,8 @@ var rdb *redis.Client
 // 初始化连接
 func initClient() (err error) {
 	rdb = redis.NewClient(&redis.Options{
+		//Network: "unix",
+		//Network: "tcp",
 		Addr:     "180.76.233.214:6379",
 		Password: "", // no password set
 		DB:       0,  // use default DB

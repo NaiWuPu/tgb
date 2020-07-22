@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c81356c4-4885-481c-bca9-08baa6ad1227" name="Default Changelist" comment="重新理解了信道">
-      <change afterPath="$PROJECT_DIR$/demo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/main_test.go" afterDir="false" />
+    <list default="true" id="c81356c4-4885-481c-bca9-08baa6ad1227" name="Default Changelist" comment="链表">
+      <change afterPath="$PROJECT_DIR$/container/ex2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container/ex3/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query/ex2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/query/ex2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/redis/ex1/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +183,9 @@
     </ignored-roots>
     <MESSAGE value="主要有redis分布式锁的案例还有io读写的案例" />
     <MESSAGE value="重新理解了信道" />
-    <option name="LAST_COMMIT_MESSAGE" value="重新理解了信道" />
+    <MESSAGE value="bench 测试 http 短连接温习" />
+    <MESSAGE value="链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表" />
   </component>
   <component name="VgoProject">
     <vendoring-mode>true</vendoring-mode>
@@ -278,10 +279,10 @@
     <state x="-1459" y="167" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1589609034015" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1594189538852" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594694768986" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595388101670">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595404345990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595388101670" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595404345990" />
     <state x="-1412" y="19" width="1428" height="824" key="dock-window-1" timestamp="1592992548043">
       <screen x="-1920" y="5" width="1920" height="1040" />
     </state>

@@ -21,5 +21,6 @@ func main() {
 		fmt.Printf("get file info failed, err:%v \n", err)
 		return
 	}
+	fmt.Println(fileInfo.Mode())
 	fmt.Printf("文件大小是:%dB \n", fileInfo.Size())
 }

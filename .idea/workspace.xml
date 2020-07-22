@@ -20,10 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c81356c4-4885-481c-bca9-08baa6ad1227" name="Default Changelist" comment="链表">
-      <change afterPath="$PROJECT_DIR$/container/ex2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container/ex3/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzip/decompress/demo.gzip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzip/decompress/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzip/zip/zip.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzip/zip/zip_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/redis/ex1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ormain/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/file/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/ex1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query/ex2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/ex2/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +91,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gzip/decompress" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -98,15 +103,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gopath\src\tgb\gzip\decompress" />
+      <recent name="D:\gopath\src\examples\shuixian3" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\gopath\src\tgb\ASC\ex1" />
       <recent name="D:\gopath\src\tgb\io\ex2" />
       <recent name="D:\gopath\src\examples\file" />
       <recent name="D:\gopath\src\examples\errorEx\ex1" />
       <recent name="D:\gopath\src\examples\timeX\ex1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\gopath\src\examples\shuixian3" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build examples/ASC">
@@ -201,12 +207,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1592449247332" />
-    <state x="782" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595239367327">
+    <state x="782" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595413663201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1138" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1592269228685" />
     <state x="782" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1594103403079" />
-    <state x="782" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595239367327" />
+    <state x="782" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595413663201" />
     <state x="678" y="154" key="#go_build_examples" timestamp="1591755095577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -279,10 +285,10 @@
     <state x="-1459" y="167" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1589609034015" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1594189538852" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594694768986" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595404345990">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595411310966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595404345990" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595411310966" />
     <state x="-1412" y="19" width="1428" height="824" key="dock-window-1" timestamp="1592992548043">
       <screen x="-1920" y="5" width="1920" height="1040" />
     </state>

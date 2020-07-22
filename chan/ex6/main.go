@@ -5,29 +5,39 @@ import (
 	"time"
 )
 
-var ch = make(chan int64, 1)
+var ch = make(chan int, 1)
+var i int
 
 func main() {
-	go f2()
 	go f1()
+	go f2()
 	select {}
 }
 
 func f1() {
 	for {
+		fmt.Println("外层for循环")
 		select {
-		case t := <-ch:
-			fmt.Printf("输入了%d\n", t)
+		case chLog := <-ch:
+			if i == 0 {
+				i = 1
+				fmt.Println("内层循环 跳了出去")
+				continue
+			}
+			if i == 1 {
+				i = 0
+			}
+			fmt.Println("time", chLog)
 		default:
-			fmt.Println("sleep")
-			time.Sleep(200 * time.Millisecond)
+			fmt.Println("我已沉睡")
+			time.Sleep(2 * time.Second)
 		}
 	}
 }
 
 func f2() {
 	for {
-		ch <- time.Now().Unix()
-		time.Sleep(1 * time.Second)
+		ch <- time.Now().Second()
+		time.Sleep(500 * time.Microsecond)
 	}
 }

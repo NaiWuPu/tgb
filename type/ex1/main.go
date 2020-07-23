@@ -1,15 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func main() {
-	var x = [3]int{1,2,3}
-	fmt.Println(x)
-	a(&x)
-	fmt.Println(x)
+type Hello struct {
+	A int `json:"a"`
 }
 
-func a(a *[3]int)  {
-	a[1] = 100
-	fmt.Println(a)
+func main() {
+	B := new(Hello)
+	D := Hello{A: 1}
+	fmt.Println()
+	fmt.Printf("%v \n", &B)
+	fmt.Printf("%v \n", &D)
+
 }

@@ -19,13 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c81356c4-4885-481c-bca9-08baa6ad1227" name="Default Changelist" comment="zip">
-      <change afterPath="$PROJECT_DIR$/test/ex1/main.go" afterDir="false" />
+    <list default="true" id="c81356c4-4885-481c-bca9-08baa6ad1227" name="Default Changelist" comment="新的demo 待分类">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/test/ex1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ex1/main_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gzip/zip/zip.go" beforeDir="false" afterPath="$PROJECT_DIR$/gzip/zip/zip.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timeX/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/timeX/ex1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/type/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/type/ex1/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +85,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gzip/decompress" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -189,7 +186,8 @@
     <MESSAGE value="bench 测试 http 短连接温习" />
     <MESSAGE value="链表" />
     <MESSAGE value="zip" />
-    <option name="LAST_COMMIT_MESSAGE" value="zip" />
+    <MESSAGE value="新的demo 待分类" />
+    <option name="LAST_COMMIT_MESSAGE" value="新的demo 待分类" />
   </component>
   <component name="VgoProject">
     <vendoring-mode>true</vendoring-mode>
@@ -287,10 +285,10 @@
     <state x="-1459" y="167" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1589609034015" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1594189538852" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594694768986" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595414248055">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595488176010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595414248055" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595488176010" />
     <state x="-1412" y="19" width="1428" height="824" key="dock-window-1" timestamp="1592992548043">
       <screen x="-1920" y="5" width="1920" height="1040" />
     </state>

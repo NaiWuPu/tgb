@@ -1,28 +1,14 @@
 package main
 
-import (
-	"fmt"
-	"unsafe"
-)
+import "fmt"
 
 func main() {
-	s := make([]byte, 200)
-	ptr := unsafe.Pointer(&s[0])
-	fmt.Printf("%v\n", ptr)
-}
+	var a int = 10
+	fmt.Println("a:", &a)
+	var p *int = &a
 
-func array() [1024]int {
-	var x [1024]int
-	for i := 0; i < len(x); i++ {
-		x[i] = i
-	}
-	return x
-}
+	fmt.Println("p1", p)
+	fmt.Println("p2", &p)
+	fmt.Println("p3", *p)
 
-func slice() []int {
-	x := make([]int, 1024)
-	for i := range x {
-		x[i] = i
-	}
-	return x
 }

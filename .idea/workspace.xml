@@ -19,16 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c81356c4-4885-481c-bca9-08baa6ad1227" name="Default Changelist" comment="链表">
-      <change afterPath="$PROJECT_DIR$/gzip/decompress/demo.gzip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gzip/decompress/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gzip/zip/zip.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gzip/zip/zip_test.go" afterDir="false" />
+    <list default="true" id="c81356c4-4885-481c-bca9-08baa6ad1227" name="Default Changelist" comment="zip">
+      <change afterPath="$PROJECT_DIR$/test/ex1/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ormain/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/file/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/ex1/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query/ex2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/ex2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/test/ex1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ex1/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzip/zip/zip.go" beforeDir="false" afterPath="$PROJECT_DIR$/gzip/zip/zip.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,11 +105,11 @@
       <recent name="D:\gopath\src\examples\shuixian3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gopath\src\tgb\test\ex1" />
       <recent name="D:\gopath\src\tgb\ASC\ex1" />
       <recent name="D:\gopath\src\tgb\io\ex2" />
       <recent name="D:\gopath\src\examples\file" />
       <recent name="D:\gopath\src\examples\errorEx\ex1" />
-      <recent name="D:\gopath\src\examples\timeX\ex1" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build examples/ASC">
@@ -191,7 +188,8 @@
     <MESSAGE value="重新理解了信道" />
     <MESSAGE value="bench 测试 http 短连接温习" />
     <MESSAGE value="链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表" />
+    <MESSAGE value="zip" />
+    <option name="LAST_COMMIT_MESSAGE" value="zip" />
   </component>
   <component name="VgoProject">
     <vendoring-mode>true</vendoring-mode>
@@ -279,16 +277,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
+    <state x="1223" y="307" key="RollbackChangesDialog" timestamp="1595414238278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1223" y="307" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595414238278" />
     <state x="319" y="320" key="SettingsEditor" timestamp="1594694768986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1459" y="167" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1589609034015" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1594189538852" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594694768986" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595411310966">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595414248055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595411310966" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595414248055" />
     <state x="-1412" y="19" width="1428" height="824" key="dock-window-1" timestamp="1592992548043">
       <screen x="-1920" y="5" width="1920" height="1040" />
     </state>

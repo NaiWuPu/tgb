@@ -4,6 +4,7 @@ import (
 	"archive/zip"
 	"io"
 	"os"
+	"path/filepath"
 	"strings"
 )
 
@@ -65,21 +66,20 @@ func compress(file *os.File, prefix string, zw *zip.Writer) error {
 }
 
 //解压
-func DeCompress(zipFile, dest string) error {
+func DeCompress(zipFile, dest_path string) error {
 	reader, err := zip.OpenReader(zipFile)
 	if err != nil {
 		return err
 	}
 	defer reader.Close()
-	for _, file := range reader.File {
-		rc, err := file.Open()
+	DeCompress_to_dest := func(f *zip.File) error {
+		rc, err := f.Open()
 		if err != nil {
 			return err
 		}
 		defer rc.Close()
-		filename := dest + file.Name
-		err = os.MkdirAll(getDir(filename), 0755)
-		if err != nil {
+		filename := dest_path + f.Name
+		if err = os.MkdirAll(filepath.Dir(filename), 0755); err != nil {
 			return err
 		}
 		w, err := os.Create(filename)
@@ -87,12 +87,16 @@ func DeCompress(zipFile, dest string) error {
 			return err
 		}
 		defer w.Close()
-		_, err = io.Copy(w, rc)
+		if _, err = io.Copy(w, rc); err != nil {
+			return err
+		}
+		return nil
+	}
+	for _, file := range reader.File {
+		err := DeCompress_to_dest(file)
 		if err != nil {
 			return err
 		}
-		w.Close()
-		rc.Close()
 	}
 	return nil
 }

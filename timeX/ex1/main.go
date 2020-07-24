@@ -11,10 +11,14 @@ import (
  * @Author: 武鑫宇
  * @Date: 2020/6/8 10:15
  */
-
-var YearFormat = "2006"
-var MonthFormat = "01"
-var DateFormat = "02"
+const (
+	YearFormat  = "2006"
+	MonthFormat = "01"
+	DateFormat  = "02"
+	Format      = "2006-01-02 15:04:05"
+	FormatYMD   = "2006-01-02"
+	FormatShort = "2006-1-2 15:4:5"
+)
 
 var weekForm = map[string]string{
 	"Sunday":    "星期日",
@@ -58,15 +62,15 @@ func Time2Date(timeUnix int64) int64 {
 
 // 昨天零点时间
 func GiveMeYesterDay() int64 {
-	var timeStr = time.Now().Format("2006-01-02")
-	var Time, _ = time.ParseInLocation("2006-01-02", timeStr, time.Local)
+	var timeStr = time.Now().Format(FormatYMD)
+	var Time, _ = time.ParseInLocation(FormatYMD, timeStr, time.Local)
 	return Time.AddDate(0, 0, -1).Unix()
 }
 
 // 今日零点时间
 func GiveMeZeroPoint() int64 {
-	var timeStr = time.Now().Format("2006-01-02")
-	var Time, _ = time.ParseInLocation("2006-01-02", timeStr, time.Local)
+	var timeStr = time.Now().Format(FormatYMD)
+	var Time, _ = time.ParseInLocation(FormatYMD, timeStr, time.Local)
 	return Time.Unix()
 }
 
@@ -75,7 +79,7 @@ func main() {
 		now := time.Now()
 		desc_time := fmt.Sprintf("%d-%d-%d %d:%d:%d", now.Year(), now.Month(), now.Day(), now.Hour(), now.Minute(), now.Second())
 		fmt.Println(desc_time)
-		fmt.Println(time.Now().Format("2006-1-02 15:4:05"))
+		fmt.Println(time.Now().Format(Format))
 
 		time.Sleep(time.Second)
 	}

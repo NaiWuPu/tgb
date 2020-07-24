@@ -19,9 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c81356c4-4885-481c-bca9-08baa6ad1227" name="Default Changelist" comment="时间bug">
+    <list default="true" id="c81356c4-4885-481c-bca9-08baa6ad1227" name="Default Changelist" comment="时间包优化">
+      <change afterPath="$PROJECT_DIR$/copy/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ex2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ex2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ex2/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/type/ex2/main_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timeX/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/timeX/ex1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/type/ex2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/type/ex2/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +90,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/ex2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -96,16 +102,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\gopath\src\tgb\gzip\decompress" />
-      <recent name="D:\gopath\src\examples\shuixian3" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\gopath\src\tgb\test\ex1" />
       <recent name="D:\gopath\src\tgb\ASC\ex1" />
       <recent name="D:\gopath\src\tgb\io\ex2" />
       <recent name="D:\gopath\src\examples\file" />
       <recent name="D:\gopath\src\examples\errorEx\ex1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gopath\src\tgb\test\ex2" />
+      <recent name="D:\gopath\src\tgb\gzip\decompress" />
+      <recent name="D:\gopath\src\examples\shuixian3" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build examples/ASC">
@@ -187,7 +194,8 @@
     <MESSAGE value="zip" />
     <MESSAGE value="新的demo 待分类" />
     <MESSAGE value="时间bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="时间bug" />
+    <MESSAGE value="时间包优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="时间包优化" />
   </component>
   <component name="VgoProject">
     <vendoring-mode>true</vendoring-mode>
@@ -285,10 +293,10 @@
     <state x="-1459" y="167" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1589609034015" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1594189538852" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594694768986" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595499479202">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595554230133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595499479202" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595554230133" />
     <state x="-1412" y="19" width="1428" height="824" key="dock-window-1" timestamp="1592992548043">
       <screen x="-1920" y="5" width="1920" height="1040" />
     </state>

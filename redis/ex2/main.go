@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"sync"
 	"time"
 
 	"github.com/go-redis/redis"
@@ -51,13 +50,5 @@ func incr() {
 }
 
 func main() {
-	var wg sync.WaitGroup
-	for i := 0; i < 10; i++ {
-		wg.Add(1)
-		go func() {
-			defer wg.Done()
-			incr()
-		}()
-	}
-	wg.Wait()
+
 }

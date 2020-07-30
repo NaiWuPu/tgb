@@ -19,14 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c81356c4-4885-481c-bca9-08baa6ad1227" name="Default Changelist" comment="跑一跑测试用例，看一看各种写法哪种更快">
-      <change afterPath="$PROJECT_DIR$/hex/ex1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/os/ex1/demo.gzip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/os/ex1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/type/ex2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unsafe/ex1/main.go" afterDir="false" />
+    <list default="true" id="c81356c4-4885-481c-bca9-08baa6ad1227" name="Default Changelist" comment="unsafe 初次接触">
+      <change afterPath="$PROJECT_DIR$/redis/ex3/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeX/ex3/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeX/ex4/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeX/ex5/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeX/ex6/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeX/ex7/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeX/ex8/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/ex1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chan/ex6/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/chan/ex6/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/ex2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/redis/ex2/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,35 +119,7 @@
       <recent name="D:\gopath\src\examples\shuixian3" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
-    <configuration name="go build examples/ASC" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="examples" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/ASC/main.go" />
-      <package value="examples/ASC" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build examples/defer/de2 (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="examples" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/defer/de2/main.go" />
-      <package value="examples/defer/de2" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build examples/defer/de2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="examples" />
-      <working_directory value="$PROJECT_DIR$/defer/de2" />
-      <kind value="DIRECTORY" />
-      <filePath value="$PROJECT_DIR$/etcd/etcd_watch.go" />
-      <package value="examples/defer/de2" />
-      <directory value="$PROJECT_DIR$/" />
-      <option name="run" value="false" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build main.go (4)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="examples" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -154,29 +129,56 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="examples" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/chan/ex6/main.go" />
+      <package value="tgb" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="examples" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/timeX/ex7/main.go" />
+      <package value="tgb" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="examples" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/timeX/ex8/main.go" />
+      <package value="tgb" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="examples" />
-      <working_directory value="$PROJECT_DIR$/kafka" />
+      <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/kafka/main.go" />
-      <package value="examples" />
+      <filePath value="$PROJECT_DIR$/timeX/ex4/main.go" />
+      <package value="tgb" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build examples/defer/de2" />
-      <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Build.go build examples/defer/de2 (1)" />
-      <item itemvalue="Go Build.go build examples/ASC" />
       <item itemvalue="Go Build.go build main.go (1)" />
+      <item itemvalue="Go Build.go build main.go (2)" />
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build main.go (3)" />
+      <item itemvalue="Go Build.go build main.go (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build examples/ASC" />
-        <item itemvalue="Go Build.go build examples/defer/de2 (1)" />
-        <item itemvalue="Go Build.go build examples/defer/de2" />
+        <item itemvalue="Go Build.go build main.go (4)" />
+        <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build main.go (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +210,8 @@
     <MESSAGE value="时间bug" />
     <MESSAGE value="时间包优化" />
     <MESSAGE value="跑一跑测试用例，看一看各种写法哪种更快" />
-    <option name="LAST_COMMIT_MESSAGE" value="跑一跑测试用例，看一看各种写法哪种更快" />
+    <MESSAGE value="unsafe 初次接触" />
+    <option name="LAST_COMMIT_MESSAGE" value="unsafe 初次接触" />
   </component>
   <component name="VgoProject">
     <vendoring-mode>true</vendoring-mode>
@@ -254,36 +257,36 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="399" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1591948146154" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594797437546">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1595987506727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="280" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1592271300318" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1594281817364" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594797437546" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1595574141014">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595987506727" />
+    <state width="914" height="278" key="GridCell.Tab.0.bottom" timestamp="1596095668297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1589611092741" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595574141014" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1595574141014">
+    <state width="914" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596095668297" />
+    <state width="914" height="278" key="GridCell.Tab.0.center" timestamp="1596095668297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1589611092741" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595574141014" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1595574141014">
+    <state width="914" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596095668297" />
+    <state width="914" height="278" key="GridCell.Tab.0.left" timestamp="1596095668297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1589611092741" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595574141014" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1595574141014">
+    <state width="914" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596095668297" />
+    <state width="914" height="278" key="GridCell.Tab.0.right" timestamp="1596095668297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1589611092741" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595574141014" />
+    <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596095668297" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1593739576207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -310,10 +313,10 @@
     <state x="-1459" y="167" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1589609034015" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1594189538852" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594694768986" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595571772898">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595841696191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595571772898" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595841696191" />
     <state x="-1412" y="19" width="1428" height="824" key="dock-window-1" timestamp="1592992548043">
       <screen x="-1920" y="5" width="1920" height="1040" />
     </state>

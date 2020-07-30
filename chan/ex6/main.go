@@ -28,9 +28,6 @@ func f1() {
 				i = 0
 			}
 			fmt.Println("time", chLog)
-		default:
-			fmt.Println("我已沉睡")
-			time.Sleep(2 * time.Second)
 		}
 	}
 }
@@ -38,6 +35,6 @@ func f1() {
 func f2() {
 	for {
 		ch <- time.Now().Second()
-		time.Sleep(500 * time.Microsecond)
+		time.Sleep(5 * time.Second)
 	}
 }

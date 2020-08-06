@@ -1,0 +1,4 @@
+# github.com/soniah/evaler v2.2.0+incompatible
+## explicit
+github.com/soniah/evaler
+github.com/soniah/evaler/stack

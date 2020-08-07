@@ -15,7 +15,7 @@ type myhandler struct {
 }
 
 func (h *myhandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
-	downLoad(w, r)
+	upLoad(w, r)
 }
 
 func main() {
@@ -36,7 +36,7 @@ func main() {
 		TLSConfig: &tls.Config{
 			ClientCAs:          pool,
 			ClientAuth:         tls.RequireAndVerifyClientCert,
-			InsecureSkipVerify: true,
+			InsecureSkipVerify: false,
 		},
 	}
 	fmt.Println("listen...")
@@ -50,10 +50,11 @@ func main() {
 	}
 }
 
-func downLoad(rw http.ResponseWriter, r *http.Request) {
+func upLoad(rw http.ResponseWriter, r *http.Request) {
 	zipName := "111.zip"
 	rw.Header().Set("Content-Disposition", fmt.Sprintf("attachment; filename=\"%s\"", zipName))
 	rw.Header().Add("Content-Type", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+	rw.Header().Add("filename", zipName)
 	err := getZip(rw)
 	if err != nil {
 		fmt.Println(err)

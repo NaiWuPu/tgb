@@ -9,6 +9,7 @@ import (
 	"strings"
 )
 
+// 反射读取数据
 type MysqlConfig struct {
 	Address  string `ini:"address"`
 	Port     int    `ini:"port"`

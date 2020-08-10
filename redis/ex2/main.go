@@ -7,6 +7,7 @@ import (
 	"github.com/go-redis/redis"
 )
 
+// 分布式锁
 func incr() {
 	client := redis.NewClient(&redis.Options{
 		Addr:     "180.76.233.214:6380",

@@ -5,6 +5,7 @@ import (
 	"github.com/go-redis/redis"
 )
 
+// 自增操作
 func incr() {
 	client := redis.NewClient(&redis.Options{
 		Addr:     "180.76.233.214:6380",

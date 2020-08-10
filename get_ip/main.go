@@ -6,7 +6,8 @@ import (
 	"strings"
 )
 
-func GetOutboundIp() (ip string, err error)  {
+// 获取本地地址及端口
+func GetOutboundIp() (ip string, err error) {
 	conn, err := net.Dial("udp", "8.8.8.8:80")
 	if err != nil {
 		return

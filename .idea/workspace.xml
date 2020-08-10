@@ -19,15 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c81356c4-4885-481c-bca9-08baa6ad1227" name="Default Changelist" comment="下载加解压，一起和成">
-      <change afterPath="$PROJECT_DIR$/etcd/etcd安装_单节点.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scan/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ex3/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="c81356c4-4885-481c-bca9-08baa6ad1227" name="Default Changelist" comment="etcd 重新学习一下">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etcd/etcd_watch.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/etcd/etcd_watch.go" beforeDir="false" afterPath="$PROJECT_DIR$/etcd/etcd_watch.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etcd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/etcd/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_ip/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/get_ip/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/int/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/slice/ex2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/ex2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/redis/ex2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/ex3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/redis/ex3/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reflectEx/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/reflectEx/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/flag/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,19 +101,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\gopath\src\tgb\sort" />
-      <recent name="D:\gopath\src\tgb\test\ex1" />
-      <recent name="D:\gopath\src\tgb\ASC\ex1" />
-      <recent name="D:\gopath\src\tgb\io\ex2" />
-      <recent name="D:\gopath\src\examples\file" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\gopath\src\tgb\type\ex2" />
       <recent name="D:\gopath\src\tgb\os\ex1" />
       <recent name="D:\gopath\src\tgb\test\ex2" />
       <recent name="D:\gopath\src\tgb\gzip\decompress" />
       <recent name="D:\gopath\src\examples\shuixian3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gopath\src\tgb\slice\ex2" />
+      <recent name="D:\gopath\src\tgb\sort" />
+      <recent name="D:\gopath\src\tgb\test\ex1" />
+      <recent name="D:\gopath\src\tgb\ASC\ex1" />
+      <recent name="D:\gopath\src\tgb\io\ex2" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build etcd_watch.go">
@@ -213,7 +212,8 @@
     <MESSAGE value="计算方法 和github 包" />
     <MESSAGE value="download 下载和上传，不完整，待修正" />
     <MESSAGE value="下载加解压，一起和成" />
-    <option name="LAST_COMMIT_MESSAGE" value="下载加解压，一起和成" />
+    <MESSAGE value="etcd 重新学习一下" />
+    <option name="LAST_COMMIT_MESSAGE" value="etcd 重新学习一下" />
   </component>
   <component name="VgoProject">
     <vendoring-mode>true</vendoring-mode>
@@ -315,10 +315,10 @@
     <state x="-1459" y="167" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1589609034015" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1594189538852" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594694768986" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596778415364">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597026836179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596778415364" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597026836179" />
     <state x="-1412" y="19" width="1428" height="824" key="dock-window-1" timestamp="1592992548043">
       <screen x="-1920" y="5" width="1920" height="1040" />
     </state>

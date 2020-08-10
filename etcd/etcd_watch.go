@@ -7,10 +7,10 @@ import (
 	"time"
 )
 
-// etcd watch 操作
+// etcd watch 操作 用来获取未来更改的通知
 func main() {
 	cli, err := clientv3.New(clientv3.Config{
-		Endpoints:            []string{"127.0.0.1:2379"},
+		Endpoints:            []string{"180.76.233.214:22379"},
 		AutoSyncInterval:     0,
 		DialTimeout:          5 * time.Second,
 		DialKeepAliveTime:    0,
@@ -26,7 +26,6 @@ func main() {
 		Context:              nil,
 		PermitWithoutStream:  false,
 	})
-
 	if err != nil {
 		fmt.Printf("connect to etcd failed, err:%v\n", err)
 		return
@@ -39,7 +38,8 @@ func main() {
 
 	for wresp := range ch {
 		for _, evt := range wresp.Events {
-			fmt.Printf("Type:%v key:%v value:%v\n", evt.Type, string(evt.Kv.Key), string(evt.Kv.Value))
+			fmt.Printf("Type:%v key:%v value:%v\n", evt.Type,
+				string(evt.Kv.Key), string(evt.Kv.Value))
 		}
 	}
 }

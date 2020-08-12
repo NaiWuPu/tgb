@@ -10,7 +10,7 @@ import (
 // 获取文件对象的详细信息
 
 func main() {
-	fileObj, err := os.Open("./main.go")
+	fileObj, err := os.Open("./helloworld_test.go")
 	if err != nil {
 		fmt.Printf("open file failed, err:%v \n", err)
 	}

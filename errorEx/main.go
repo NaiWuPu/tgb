@@ -1,7 +1,7 @@
 package main
 
 import (
-	mylogger "examples/errorEx/ex1"
+	mylogger "examples/errorEx/时间工具包"
 )
 
 var log mylogger.Logger

@@ -1,4 +1,4 @@
-package ex5
+package 内存测试
 
 import (
 	"fmt"

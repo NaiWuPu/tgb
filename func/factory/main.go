@@ -1,4 +1,4 @@
-package factory_method
+package main
 
 // 工厂模式
 //Operator 是被封装的实际类接口

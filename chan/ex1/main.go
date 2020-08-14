@@ -9,5 +9,4 @@ func main() {
 
 	fmt.Println(<-ch1)
 	fmt.Println(<-ch1)
-
 }

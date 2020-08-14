@@ -1,4 +1,4 @@
-package ex4
+package 失败测试
 
 import (
 	"fmt"

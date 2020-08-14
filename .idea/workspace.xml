@@ -19,38 +19,44 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c81356c4-4885-481c-bca9-08baa6ad1227" name="Default Changelist" comment="规整一下代码，以后会删一些不用的">
-      <change afterPath="$PROJECT_DIR$/func/ex1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/func/ex2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/func/ex3/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/func/factory/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iota/ex1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iota/ex2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iota/ex3/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/ex1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/ex2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pprof/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pprof/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sin/ex1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string/ex2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ex2/helloworld_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ex3/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ex4/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ex4/fail_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ex5/REMADME.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ex5/benchmark_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ex6/benchmark_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/type/hash/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/type/map/main.go" afterDir="false" />
+    <list default="true" id="c81356c4-4885-481c-bca9-08baa6ad1227" name="Default Changelist" comment="一些站在C处看go的demo&#10;源地址http://c.biancheng.net/view/vip_7307.html">
+      <change afterPath="$PROJECT_DIR$/Cgo/ex1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cgo/ex2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cgo/ex2/test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/func/factory/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/func/factory1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hash/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/压力测试/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/压力测试/demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/覆盖率测试/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/覆盖率测试/demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/覆盖率测试/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeX/snowflake/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/词频统计/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/词频统计/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/file/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/string/ex1/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ex1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/test/ex1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ex2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/test/ex2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ex2/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ex2/main_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ex3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ex3/select_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploaded/1570872523(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cgo/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chan/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/chan/ex1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/errorEx/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/errorEx/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaler/ex1/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/evaler/ex1/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaler/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/evaler/ex1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/func/factory/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/func/factory/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/string/ex1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ex1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/test/单元测试/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/单元测试/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ex1/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/单元测试/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ex2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ex2/helloworld_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/压力测试/helloworld_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ex3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/test/单元测试正则匹配/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ex3/select_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/单元测试正则匹配/select_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ex4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/test/失败测试/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ex4/fail_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/失败测试/fail_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ex5/REMADME.md" beforeDir="false" afterPath="$PROJECT_DIR$/test/内存测试/REMADME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ex5/benchmark_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/内存测试/benchmark_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ex6/benchmark_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/测试计时/benchmark_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timeX/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/timeX/时间工具包/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timeX/ex2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/timeX/ex2/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +119,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/覆盖率测试" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -126,18 +132,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gopath\src\tgb\test\覆盖率测试" />
       <recent name="D:\gopath\src\tgb\type\ex2" />
       <recent name="D:\gopath\src\tgb\os\ex1" />
       <recent name="D:\gopath\src\tgb\test\ex2" />
       <recent name="D:\gopath\src\tgb\gzip\decompress" />
-      <recent name="D:\gopath\src\examples\shuixian3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gopath\src\tgb\Cgo\ex2" />
+      <recent name="D:\gopath\src\tgb\Cgo\ex1" />
       <recent name="D:\gopath\src\tgb\string\ex1" />
       <recent name="D:\gopath\src\tgb\net\ex1" />
       <recent name="D:\gopath\src\tgb\slice\ex2" />
-      <recent name="D:\gopath\src\tgb\sort" />
-      <recent name="D:\gopath\src\tgb\test\ex1" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build etcd_watch.go">
@@ -238,7 +244,8 @@
     <MESSAGE value="下载加解压，一起和成" />
     <MESSAGE value="etcd 重新学习一下" />
     <MESSAGE value="规整一下代码，以后会删一些不用的" />
-    <option name="LAST_COMMIT_MESSAGE" value="规整一下代码，以后会删一些不用的" />
+    <MESSAGE value="一些站在C处看go的demo&#10;源地址http://c.biancheng.net/view/vip_7307.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="一些站在C处看go的demo&#10;源地址http://c.biancheng.net/view/vip_7307.html" />
   </component>
   <component name="VgoProject">
     <vendoring-mode>true</vendoring-mode>
@@ -284,12 +291,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="399" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1591948146154" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1596796775517">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597215373684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="280" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1592271300318" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1594281817364" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596796775517" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597215373684" />
     <state width="1819" height="276" key="GridCell.Tab.0.bottom" timestamp="1597026595011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -340,10 +347,10 @@
     <state x="-1459" y="167" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1589609034015" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1594189538852" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594694768986" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597028010237">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597213468102">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597028010237" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597213468102" />
     <state x="-1412" y="19" width="1428" height="824" key="dock-window-1" timestamp="1592992548043">
       <screen x="-1920" y="5" width="1920" height="1040" />
     </state>
@@ -356,12 +363,12 @@
       <screen x="-1920" y="5" width="1920" height="1040" />
     </state>
     <state x="-1572" y="133" width="1428" height="824" key="dock-window-3/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1592992833441" />
-    <state x="430" y="244" width="786" height="600" key="find.popup" timestamp="1597042224036">
+    <state x="430" y="244" width="786" height="600" key="find.popup" timestamp="1597308826258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1342" y="208" width="786" height="600" key="find.popup/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1590223905975" />
     <state x="578" y="203" width="786" height="600" key="find.popup/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1594277875958" />
-    <state x="430" y="244" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597042224036" />
+    <state x="430" y="244" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597308826258" />
     <state x="684" y="307" key="git4idea.merge.GitPullDialog" timestamp="1595571768325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -21,13 +21,13 @@ func main() {
 	fmt.Printf("运算结果4为:%v \n", res2)
 
 	go func() {
-		for a := 0;; a++ {
+		for a := 0; ; a++ {
 			In <- 1
 		}
 	}()
 	go func() {
 		for {
-			fmt.Println(<- In)
+			<-In
 		}
 	}()
 	select {}

@@ -1,4 +1,4 @@
-package ex6
+package 测试计时
 
 import "testing"
 

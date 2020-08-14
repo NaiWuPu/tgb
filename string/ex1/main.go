@@ -7,6 +7,6 @@ import (
 
 func main() {
 	log.Println(strings.TrimRight("abba", "ba"))
-	log.Println(strings.TrimRight("abcdaaaaa", "abcd"))
 	log.Println(strings.TrimSuffix("abcddcba", "dcba"))
+	log.Println(strings.Split("qweqewqweqwewqqweqw1zklcnkzlnclcnl", "1"))
 }

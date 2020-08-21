@@ -20,43 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c81356c4-4885-481c-bca9-08baa6ad1227" name="Default Changelist" comment="一些站在C处看go的demo&#10;源地址http://c.biancheng.net/view/vip_7307.html">
-      <change afterPath="$PROJECT_DIR$/Cgo/ex1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cgo/ex2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cgo/ex2/test.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/func/factory/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/func/factory1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hash/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/压力测试/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/压力测试/demo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/覆盖率测试/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/覆盖率测试/demo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/覆盖率测试/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timeX/snowflake/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/词频统计/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/词频统计/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cgo/ex3/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/byte/ex1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cert/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/有限状态变更/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模拟RPC通信/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/超级字典/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cgo/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chan/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/chan/ex1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cgo/ex2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Cgo/ex2/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errorEx/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/errorEx/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evaler/ex1/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/evaler/ex1/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evaler/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/evaler/ex1/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/func/factory/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/func/factory/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/string/ex1/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ex1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/test/单元测试/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/单元测试/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ex1/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/单元测试/main_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ex2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ex2/helloworld_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/压力测试/helloworld_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ex3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/test/单元测试正则匹配/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ex3/select_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/单元测试正则匹配/select_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ex4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/test/失败测试/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ex4/fail_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/失败测试/fail_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ex5/REMADME.md" beforeDir="false" afterPath="$PROJECT_DIR$/test/内存测试/REMADME.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ex5/benchmark_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/内存测试/benchmark_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ex6/benchmark_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/测试计时/benchmark_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timeX/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/timeX/时间工具包/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timeX/ex2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/timeX/ex2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timeX/ex3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/timeX/ex3/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +92,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/覆盖率测试" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../3.0src/control-plane/gofm/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -146,7 +119,7 @@
       <recent name="D:\gopath\src\tgb\slice\ex2" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build etcd_watch.go">
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
     <configuration name="go build etcd_watch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="examples" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -156,11 +129,11 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="examples" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test/ex4/main.go" />
+      <filePath value="$PROJECT_DIR$/timeX/ex3/main.go" />
       <package value="tgb" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -194,18 +167,18 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build main.go (5)" />
-      <item itemvalue="Go Build.go build main.go (1)" />
       <item itemvalue="Go Build.go build server.go" />
       <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build etcd_watch.go" />
+      <item itemvalue="Go Build.go build main.go (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build etcd_watch.go" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (5)" />
         <item itemvalue="Go Build.go build server.go" />
-        <item itemvalue="Go Build.go build main.go (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -291,52 +264,56 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="399" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1591948146154" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597215373684">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1598002536863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="280" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1592271300318" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1594281817364" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597215373684" />
-    <state width="1819" height="276" key="GridCell.Tab.0.bottom" timestamp="1597026595011">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598002536863" />
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1597903848330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1589611092741" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
-    <state width="1819" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597026595011" />
-    <state width="1819" height="276" key="GridCell.Tab.0.center" timestamp="1597026595011">
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597903848330" />
+    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1597903848330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1589611092741" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
-    <state width="1819" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597026595011" />
-    <state width="1819" height="276" key="GridCell.Tab.0.left" timestamp="1597026595011">
+    <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597903848330" />
+    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1597903848330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1589611092741" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
-    <state width="1819" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597026595011" />
-    <state width="1819" height="276" key="GridCell.Tab.0.right" timestamp="1597026595011">
+    <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597903848330" />
+    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1597903848330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1589611092741" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
-    <state width="1819" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597026595011" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1593739576207">
+    <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597903848330" />
+    <state width="914" height="344" key="GridCell.Tab.1.bottom" timestamp="1597903781719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576207" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1593739576206">
+    <state width="914" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597903781719" />
+    <state width="914" height="344" key="GridCell.Tab.1.center" timestamp="1597903781719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1593739576206">
+    <state width="914" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597903781719" />
+    <state width="914" height="344" key="GridCell.Tab.1.left" timestamp="1597903781719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1593739576206">
+    <state width="914" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597903781719" />
+    <state width="914" height="344" key="GridCell.Tab.1.right" timestamp="1597903781719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
+    <state width="914" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597903781719" />
     <state x="1223" y="307" key="RollbackChangesDialog" timestamp="1595414238278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -347,10 +324,10 @@
     <state x="-1459" y="167" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1589609034015" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1594189538852" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594694768986" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597213468102">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597395010048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597213468102" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597395010048" />
     <state x="-1412" y="19" width="1428" height="824" key="dock-window-1" timestamp="1592992548043">
       <screen x="-1920" y="5" width="1920" height="1040" />
     </state>

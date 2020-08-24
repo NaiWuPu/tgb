@@ -4,11 +4,23 @@ import (
 	"fmt"
 )
 
-type person struct {
-	name string
+func main() {
+	err := e()
+	cher(err)
+
+	if nil == nil {
+		fmt.Println(3333)
+	}
 }
 
-func main() {
-	var m int64 = 1 << 5
-	fmt.Println(m)
+func e() (err error) {
+	return nil
+}
+
+func cher(err error) {
+	if err != nil {
+		fmt.Println("111")
+		return
+	}
+	fmt.Println("2222")
 }

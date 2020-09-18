@@ -19,33 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c81356c4-4885-481c-bca9-08baa6ad1227" name="Default Changelist" comment="P90 RUSH B">
-      <change afterPath="$PROJECT_DIR$/download/ex1/server/cert.tgz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/download/ex1/server/cert/cacert.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/download/ex1/server/cert/server.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/download/ex1/server/cert/server.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/download/ex1/server/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/download/ex1/server/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/download/ex1/server/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/download/ex2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/算法/堆排序/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/算法/快速排序算法/main.go" afterDir="false" />
+    <list default="true" id="c81356c4-4885-481c-bca9-08baa6ad1227" name="Default Changelist" comment="downLoad 更新">
+      <change afterPath="$PROJECT_DIR$/byte/ex2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gob文件/read.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gob文件/save.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xml文件/read.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xml文件/save.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二进制文件/read.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二进制文件/save.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文件读写/read.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文件读写/save.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自定义二进制文件/read.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自定义二进制文件/save.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockerFIle/ex1/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/dockerFIle/ex1/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/client/cert/cacert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/client/cert/client.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/client/cert/client.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/client/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/server/cert.tgz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/server/cert/cacert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/server/cert/server.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/server/cert/server.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/server/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/server/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/server/server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/timeX/时间工具包/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/timeX/时间工具包/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +84,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -108,7 +98,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/download/ex1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -120,27 +110,36 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\gopath\src\tgb\download\ex1" />
-      <recent name="D:\gopath\src\tgb\download\ex1\server" />
-      <recent name="D:\gopath\src\tgb\download\ex2" />
-      <recent name="D:\gopath\src\tgb\download\server" />
-      <recent name="D:\gopath\src\tgb\test\覆盖率测试" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gopath\src\tgb\demo\gmssl" />
       <recent name="D:\gopath\src\tgb\download\ex1" />
       <recent name="D:\gopath\src\tgb\download\ex1\server" />
       <recent name="D:\gopath\src\tgb\download\ex2" />
       <recent name="D:\gopath\src\tgb\func" />
-      <recent name="D:\gopath\src\tgb\sync\ex1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gopath\src\tgb\demo" />
+      <recent name="D:\gopath\src\tgb\download\ex1" />
+      <recent name="D:\gopath\src\tgb\download\ex1\server" />
+      <recent name="D:\gopath\src\tgb\download\ex2" />
+      <recent name="D:\gopath\src\tgb\download\server" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (2)">
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
     <configuration name="go build etcd_watch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="examples" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/etcd/etcd_watch.go" />
+      <package value="tgb" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="examples" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/demo/main.go" />
       <package value="tgb" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -172,29 +171,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="examples" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/download/server/server.go" />
-      <package value="tgb" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Go Build.go build main.go (5)" />
-      <item itemvalue="Go Build.go build server.go" />
       <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build etcd_watch.go" />
       <item itemvalue="Go Build.go build main.go (2)" />
+      <item itemvalue="Go Build.go build main.go (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build etcd_watch.go" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (5)" />
-        <item itemvalue="Go Build.go build server.go" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +226,8 @@
     <MESSAGE value="一些站在C处看go的demo&#10;源地址http://c.biancheng.net/view/vip_7307.html" />
     <MESSAGE value="gogogo" />
     <MESSAGE value="P90 RUSH B" />
-    <option name="LAST_COMMIT_MESSAGE" value="P90 RUSH B" />
+    <MESSAGE value="downLoad 更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="downLoad 更新" />
   </component>
   <component name="VgoProject">
     <vendoring-mode>true</vendoring-mode>
@@ -252,16 +243,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1592449247332" />
-    <state x="782" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598511322958">
+    <state x="782" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600424171210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1138" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1592269228685" />
     <state x="782" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1594103403079" />
-    <state x="782" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598511322958" />
-    <state x="678" y="154" key="#go_build_examples" timestamp="1591755095577">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="678" y="154" key="#go_build_examples/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1591755095577" />
+    <state x="782" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600424171210" />
     <state x="678" y="162" key="#go_build_examples/ASC" timestamp="1594030485518">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -278,52 +265,52 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="399" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1591948146154" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599031312224">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600250756462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="280" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1592271300318" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1594281817364" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599031312224" />
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1597903848330">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600250756462" />
+    <state width="914" height="269" key="GridCell.Tab.0.bottom" timestamp="1599817091578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597903848330" />
-    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1597903848330">
+    <state width="914" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599817091578" />
+    <state width="914" height="269" key="GridCell.Tab.0.center" timestamp="1599817091578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
-    <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597903848330" />
-    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1597903848330">
+    <state width="914" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599817091578" />
+    <state width="914" height="269" key="GridCell.Tab.0.left" timestamp="1599817091578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
-    <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597903848330" />
-    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1597903848330">
+    <state width="914" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599817091578" />
+    <state width="914" height="269" key="GridCell.Tab.0.right" timestamp="1599817091578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
-    <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597903848330" />
-    <state width="914" height="344" key="GridCell.Tab.1.bottom" timestamp="1597903781719">
+    <state width="914" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599817091578" />
+    <state width="914" height="344" key="GridCell.Tab.1.bottom" timestamp="1599817091573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576207" />
-    <state width="914" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597903781719" />
-    <state width="914" height="344" key="GridCell.Tab.1.center" timestamp="1597903781719">
+    <state width="914" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599817091573" />
+    <state width="914" height="344" key="GridCell.Tab.1.center" timestamp="1599817091573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
-    <state width="914" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597903781719" />
-    <state width="914" height="344" key="GridCell.Tab.1.left" timestamp="1597903781719">
+    <state width="914" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599817091573" />
+    <state width="914" height="344" key="GridCell.Tab.1.left" timestamp="1599817091573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
-    <state width="914" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597903781719" />
-    <state width="914" height="344" key="GridCell.Tab.1.right" timestamp="1597903781719">
+    <state width="914" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599817091573" />
+    <state width="914" height="344" key="GridCell.Tab.1.right" timestamp="1599817091573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1593739576206" />
-    <state width="914" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597903781719" />
+    <state width="914" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599817091573" />
     <state x="1223" y="307" key="RollbackChangesDialog" timestamp="1599096892439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -333,10 +320,14 @@
     </state>
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1594189538852" />
     <state x="319" y="320" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594694768986" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598319355520">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599097041825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598319355520" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599097041825" />
+    <state x="984" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1599813287283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="984" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1599813287283" />
     <state x="1079" y="139" width="964" height="1002" key="dock-window-1" timestamp="1599053036718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -350,19 +341,19 @@
       <screen x="-1920" y="5" width="1920" height="1040" />
     </state>
     <state x="-1572" y="133" width="1428" height="824" key="dock-window-3/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1592992833441" />
-    <state x="430" y="244" width="786" height="600" key="find.popup" timestamp="1598944690400">
+    <state x="430" y="244" width="786" height="600" key="find.popup" timestamp="1600137320482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="578" y="203" width="786" height="600" key="find.popup/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1594277875958" />
-    <state x="430" y="244" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598944690400" />
+    <state x="430" y="244" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600137320482" />
     <state x="684" y="307" key="git4idea.merge.GitPullDialog" timestamp="1595571768325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="684" y="307" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595571768325" />
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1598943696036">
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1600323602352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1591930782594" />
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598943696036" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600323602352" />
   </component>
 </project>

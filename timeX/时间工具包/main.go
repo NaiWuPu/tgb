@@ -6,6 +6,8 @@ import (
 	"time"
 )
 
+var str = "10:00:00"
+
 /**
  * 武鑫宇的时间快速获取工具
  * @Author: 武鑫宇
@@ -16,7 +18,8 @@ const (
 	MonthFormat = "01"
 	DateFormat  = "02"
 	Format      = "2006-01-02 15:04:05"
-	FormatYMD   = "2006-01-02"
+	FormatY_M_D = "2006-01-02"
+	FormatYMD   = "20060102"
 	FormatShort = "2006-1-2 15:4:5"
 )
 
@@ -60,6 +63,10 @@ func Time2Date(timeUnix int64) int64 {
 	return int64(i)
 }
 
+func Time2Ymd(timeUnix int64) string {
+	return time.Unix(timeUnix, 0).Format(FormatY_M_D)
+}
+
 // 昨天零点时间
 func GiveMeYesterDay() int64 {
 	var timeStr = time.Now().Format(FormatYMD)
@@ -75,20 +82,15 @@ func GiveMeZeroPoint() int64 {
 }
 
 func main() {
-	for {
-		now := time.Now()
-		desc_time := fmt.Sprintf("%d-%d-%d %d:%d:%d", now.Year(), now.Month(), now.Day(), now.Hour(), now.Minute(), now.Second())
-		fmt.Println(desc_time)
-		fmt.Println(time.Now().Format(Format))
-
-		time.Sleep(time.Second)
+	var FeatureLibraryUpTimeRange int64
+	var str = "14:50:00"
+	var Time, _ = time.ParseInLocation(Format, Time2Ymd(time.Now().Unix())+" "+str, time.Local)
+	fmt.Println(Time.Unix())
+	fmt.Println(Time.Unix() - time.Now().Unix())
+	if Time.Unix() < time.Now().Unix() {
+		FeatureLibraryUpTimeRange = Time.Unix() + 86400
+	} else {
+		FeatureLibraryUpTimeRange = Time.Unix()
 	}
-
-	//now := time.Now()
-	//nextYear, err := time.Parse("2006-01-02","2020-06-23")
-	//log.Println(err)
-	//log.Println(nextYear)
-	//
-	//d := nextYear.Sub(now)
-	//fmt.Println(d)
+	fmt.Println(FeatureLibraryUpTimeRange)
 }

@@ -12,7 +12,7 @@ func main() {
 		select {
 		case i := <-sec.C:
 			fmt.Println(i)
-			sec.Reset(20 * time.Second)
+			sec.Reset(3 * time.Second)
 		}
 	}
 

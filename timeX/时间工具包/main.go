@@ -82,15 +82,13 @@ func GiveMeZeroPoint() int64 {
 }
 
 func main() {
-	var FeatureLibraryUpTimeRange int64
-	var str = "14:50:00"
-	var Time, _ = time.ParseInLocation(Format, Time2Ymd(time.Now().Unix())+" "+str, time.Local)
-	fmt.Println(Time.Unix())
-	fmt.Println(Time.Unix() - time.Now().Unix())
+	FeatureLibraryUpTimeRange:= `18:40:00`
+	var Time, _ = time.ParseInLocation(Format, Time2Ymd(time.Now().Unix())+" "+FeatureLibraryUpTimeRange, time.Local)
+	var sleepTime int64
 	if Time.Unix() < time.Now().Unix() {
-		FeatureLibraryUpTimeRange = Time.Unix() + 86400
+		sleepTime = Time.Unix() + 86400
 	} else {
-		FeatureLibraryUpTimeRange = Time.Unix()
+		sleepTime = Time.Unix()
 	}
-	fmt.Println(FeatureLibraryUpTimeRange)
+	fmt.Println(sleepTime)
 }

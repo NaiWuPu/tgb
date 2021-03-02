@@ -7,22 +7,19 @@ package main
 
 void my_reverse(char* src, int len, char *dst){
   dst = malloc(sizeof(char) * (len + 1));
-  printf("[c-part] src=%s
-", src);
+  printf("[c-part] src=%s", src);
   for (int i = 0; i < len; ++i)
   {
     dst[i] = src[len - 1 - i];
   }
   dst[len] = 0;
-  printf("[c-part] dst=%s
-", dst);
+  printf("[c-part] dst=%s", dst);
 }
 
 void some_text(char* buffer, unsigned long long int *year){
   buffer = malloc(200 * sizeof(char));
   sscanf("year 2018d", "%s %16llu", buffer, year);
-  printf("will return (%s, %16llu)
-", buffer, *year);
+  printf("will return (%s, %16llu)", buffer, *year);
 
 }
 */

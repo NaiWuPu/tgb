@@ -19,28 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4609082-7742-4ee2-83c9-7ee35f9a42b3" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tgb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ip地址/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pprof/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pprof/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pprof分析工具/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string/转数字/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sync/续租锁/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/遍历目录/ex/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/遍历目录/ex1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/遍历目录/ex2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/遍历目录/ex3/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/遍历目录/按时间排序目录/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/examples.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f4609082-7742-4ee2-83c9-7ee35f9a42b3" name="默认更改列表" comment="文件">
+      <change afterPath="$PROJECT_DIR$/ipc/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPU性能测试工具/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/CPU性能测试工具/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cgo/ex1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Cgo/ex1/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cgo/ex3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Cgo/ex3/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,16 +59,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.全局.GOPATH.is.expanded" value="true" />
+    <property name="configurable.模块.GOPATH.is.expanded" value="false" />
+    <property name="configurable.项目.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rpc" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -93,11 +80,17 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\gopath\src\tgb\demo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gopath\src\tgb\rpc" />
+      <recent name="D:\gopath\src\tgb\ipc" />
+      <recent name="D:\gopath\src\tgb\demo" />
+      <recent name="D:\gopath\src\tgb" />
     </key>
   </component>
   <component name="RunManager" selected="Go 构建.go build tgb/demo">
@@ -125,11 +118,6 @@
       <item itemvalue="Go 构建.go build tgb/demo" />
       <item itemvalue="Go 测试.go test tgb" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Go 构建.go build tgb/demo" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +134,34 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.io,direct" />
+      </map>
+    </environment>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1087" y="340" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1628664101894">
+      <screen x="-1858" y="0" width="1858" height="1080" />
+    </state>
+    <state x="-1087" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1858.1080/-1858.0.1858.1080@-1858.0.1858.1080" timestamp="1628664101894" />
+    <state x="771" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1858.1080/-1858.0.1858.1080@0.0.1858.1080" timestamp="1628148481528" />
+    <state x="-1149" y="295" key="FileChooserDialogImpl" timestamp="1628672130493">
+      <screen x="-1858" y="0" width="1858" height="1080" />
+    </state>
+    <state x="-1149" y="295" key="FileChooserDialogImpl/0.0.1858.1080/-1858.0.1858.1080@-1858.0.1858.1080" timestamp="1628672130493" />
+    <state x="709" y="295" key="FileChooserDialogImpl/0.0.1858.1080/-1858.0.1858.1080@0.0.1858.1080" timestamp="1628150273944" />
+    <state x="430" y="184" key="SettingsEditor" timestamp="1628226671004">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="-1428" y="184" key="SettingsEditor/0.0.1858.1080/-1858.0.1858.1080@-1858.0.1858.1080" timestamp="1628146108001" />
+    <state x="430" y="184" key="SettingsEditor/0.0.1858.1080/-1858.0.1858.1080@0.0.1858.1080" timestamp="1628226671004" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tgb$go_test_tgb.out" NAME="go test tgb 覆盖结果" MODIFIED="1612317565096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
